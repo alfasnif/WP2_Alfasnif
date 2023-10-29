@@ -8,7 +8,7 @@ class Form extends CI_Controller{
 	}
  
 	function index(){
-		$this->load->view('v_form');
+		$this->load->view('matakuliah/cetak');
 	}
  
 	function aksi(){
